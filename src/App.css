@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;500&family=Lora:wght@400;500&family=Poppins:wght@400;600&display=swap");
 
-/* plz subsribe to thapa technical channel 
-          https://www.youtube.com/thapatechnical
-         */
-
 * {
   margin: 0;
   padding: 0;
@@ -12,8 +8,8 @@
 }
 
 :root {
-  --text-clr: #c0c0c0;
-  --bg-clr: #ff80ff;
+  --text-clr: #ffffff;
+  --bg-clr: #000000;
   --border-clr: rgb(156, 176, 193);
 }
 
@@ -21,8 +17,14 @@ html {
   font-size: 62.5%;
 }
 
+h1 {
+  font-size: 2.5rem;
+  font-family: "Lora", serif;
+  color: white;
+}
+
 body {
-  background-color: var(--bg-clr);
+  background: #c06c84;
 }
 
 h2 {
@@ -37,9 +39,9 @@ a {
 }
 
 img {
-  width: 25rem;
+  width: 21rem;
   min-width: 10rem;
-  max-height: 30rem;
+  max-height: 23rem;
   margin: 1rem 0;
   border-radius: 1rem;
   transition: all 0.3s linear;
@@ -128,7 +130,7 @@ input {
   min-width: 30rem;
   width: 50vw;
   /* padding: 1rem; */
-  background-color: var(--bg-clr);
+  background-color: black;
   display: grid;
   gap: 2rem;
   grid-template-columns: 0.6fr 1fr;
@@ -169,19 +171,20 @@ figure {
 
 .card-text {
   font-size: 1.8rem;
+  color: white;
 }
 
 a {
   text-align: center;
   display: flex;
   justify-content: center;
-  margin-top: 2rem;
+  /*margin-top: 2rem;*/
   padding: 3.2rem 1rem;
-  /* background-color: var(--text-clr); */
+  background-color: #222020;
   color: var(--text-clr);
   border: 0.2rem solid var(--text-clr);
   font-size: 1.8rem;
-  border-radius: 0.5rem;
+  border-radius: 2.5rem;
   transition: all 0.3s linear;
 }
 
@@ -224,7 +227,7 @@ button {
 
 .pagination-btn p {
   margin: 2rem 0;
-  color: rgba(21, 19, 60, 0.5);
+  color: black;
   font-weight: 400;
   font-size: 1.6rem;
   display: inline-block;
