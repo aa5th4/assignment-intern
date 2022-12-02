@@ -9,7 +9,7 @@ const Pagination = () => {
         <div className='pagination-btn'>
             <button onClick={() => getPrevPage()}> PREV</button>
             <p>
-                {page+1} of {pageCount}
+                {page} of {pageCount}
             </p>
             <button onClick={() => getNextPage()}>NEXT</button>
         </div>
