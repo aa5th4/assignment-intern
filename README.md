@@ -1,5 +1,5 @@
 ## Link of Website 
-https://moviewebsite-assign.netlify.app/
+https://demo-movie-website.netlify.app/
 
 I built this movie website using react js .
 We have a search input form , where users can search any movie name, and based on that query we show them the results . 
